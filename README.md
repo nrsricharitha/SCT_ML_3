@@ -8,17 +8,16 @@ This project implements a Support Vector Machine (SVM) to classify images of cat
 
 The goal of this project is to classify images into two categories: Cats and Dogs. The dataset is preprocessed by resizing images, converting them into numerical features, and training an SVM model for classification.
 
-## Dataset
 
-Dataset Used:
+## Dataset Source
 
-* TensorFlow Cats vs Dogs Dataset
+Dataset: Cats and Dogs Dataset
 
-The dataset contains images belonging to two classes:
+Source:
+https://www.kaggle.com/datasets/tongpython/cat-and-dog
 
-* Cat
-* Dog
-
+Note:
+To reduce computational load, only a subset of the dataset (500 cat images and 500 dog images) was used.
 ## Technologies Used
 
 * Python
